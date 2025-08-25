@@ -1,0 +1,2 @@
+@define @name: text{length:80}
+@define id: integer{positive}

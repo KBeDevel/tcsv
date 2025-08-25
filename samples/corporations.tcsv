@@ -1,0 +1,25 @@
+---
+@dir "defs"
+
+@import "common.tcsvh"
+
+@define organization: text{
+  length:50,
+  regex:"^[A-Za-z0-9 ]+$"
+}
+
+@name: "TCSV Specification Sample"
+@collation: "utf-8"
+@author: "John Doe"
+@license: "GPL-3.0"
+@version: "1.0"
+
+id: id
+org: organization
+phone-number: text{
+  regex:"^\+?[0-9]{7,15}$"
+}
+---
+1,"Google Inc","+1234567890"
+2,"Microsoft","+19876543210"
+3,"Amazon","+11234567890"

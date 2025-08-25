@@ -1,0 +1,8 @@
+@dir "defs"
+@import "pets.tcsvh"
+
+name,age,species,vaccinated
+Fido,5,Dog,true
+Whiskers,3,Cat,false
+Tweety,2,Bird,true
+Nemo,1,Fish,false
