@@ -1,5 +1,8 @@
 **/*/.vscode
 **/*/.idea
 
+**/*/.venv
+
 **/*/dist/*
-**/**/rust/target
+**/*/build/*
+**/*/rust/target
